@@ -28,10 +28,6 @@
     "test": "jest",
     "watch": "jest --watch"
   },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,md,yml}": "prettier --write"
-  },
   "prettier": "@stylelint/prettier-config",
   "eslintConfig": {
     "extends": [
