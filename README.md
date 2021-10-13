@@ -23,7 +23,7 @@ npm install --save-dev stylelint-config-standard-scss
 
 ## Usage
 
-Det your `stylelint` config to:
+Set your `stylelint` config to:
 
 ```json
 {
