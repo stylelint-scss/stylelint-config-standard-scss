@@ -21,13 +21,13 @@ module.exports = {
 		'scss/at-else-closing-brace-space-after': 'always-intermediate',
 		'scss/at-else-empty-line-before': 'never',
 		'scss/at-else-if-parentheses-space-before': 'always',
+		'scss/at-function-parentheses-space-before': 'never',
 		'scss/at-function-pattern': [
 			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected function name to be kebab-case',
 			},
 		],
-		'scss/at-function-parentheses-space-before': 'never',
 		'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
 		'scss/at-if-closing-brace-space-after': 'always-intermediate',
 		'scss/at-mixin-argumentless-call-parentheses': 'never',
@@ -38,12 +38,7 @@ module.exports = {
 				message: 'Expected mixin name to be kebab-case',
 			},
 		],
-		'scss/dollar-variable-pattern': [
-			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
-			{
-				message: 'Expected variable to be kebab-case',
-			},
-		],
+		'scss/at-rule-conditional-no-parentheses': true,
 		'scss/dollar-variable-colon-space-after': 'always',
 		'scss/dollar-variable-colon-space-before': 'never',
 		'scss/dollar-variable-empty-line-before': [
@@ -53,13 +48,12 @@ module.exports = {
 				ignore: ['after-comment', 'inside-single-line-block'],
 			},
 		],
-		'scss/percent-placeholder-pattern': [
+		'scss/dollar-variable-pattern': [
 			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
-				message: 'Expected placeholder to be kebab-case',
+				message: 'Expected variable to be kebab-case',
 			},
 		],
-		'scss/at-rule-conditional-no-parentheses': true,
 		'scss/double-slash-comment-empty-line-before': [
 			'always',
 			{
@@ -68,5 +62,11 @@ module.exports = {
 			},
 		],
 		'scss/double-slash-comment-whitespace-inside': 'always',
+		'scss/percent-placeholder-pattern': [
+			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			{
+				message: 'Expected placeholder to be kebab-case',
+			},
+		],
 	},
 };
