@@ -95,7 +95,7 @@ $theme-colors: (
 
 /* Single-line comment */
 
-@media (min-width >= 60em) {
+@media (min-width: 60em) {
   .selector {
     // Flush to parent comment
     @include corner-icon("mail", top, left);
