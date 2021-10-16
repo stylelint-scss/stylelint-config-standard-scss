@@ -1,8 +1,4 @@
-# Changelog
-
-All notable changes to this project are documented in this file.
-
-## 2.0.0
+# 2.0.0
 
 This release adds over a dozen new rules.
 
@@ -31,10 +27,10 @@ If needed, you can [extend the config](README.md#extending-the-config) to turn o
 - Added: `scss/double-slash-comment-whitespace-inside` rule.
 - Added: `scss/percent-placeholder-pattern` rule.
 
-## 1.1.0
+# 1.1.0
 
 - Updated `peerDependencies` to include `stylelint@10`
 
-## 1.0.0
+# 1.0.0
 
 - Initial release
