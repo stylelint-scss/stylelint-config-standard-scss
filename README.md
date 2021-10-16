@@ -7,11 +7,10 @@
 
 > The standard shareable SCSS config for Stylelint.
 
-Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) and [`stylelint-config-recommended-scss`](https://github.com/stylelint-scss/stylelint-config-recommended-scss).
+This config:
 
-Turns on additional rules to enforce the common stylistic conventions found within a handful of Sass styleguide such as [Sass Guidelines](https://sass-guidelin.es/) and [Sass Style Guide](https://css-tricks.com/sass-style-guide/).
-
-Use it as is or as a foundation for your own config.
+- extends the [`stylelint-config-standard` shared config](https://github.com/stylelint/stylelint-config-standard) and configures its rules for SCSS
+- extends the [`stylelint-config-recommended-scss` shared config](https://github.com/stylelint-scss/stylelint-config-recommended-scss)
 
 To see the rules that this config uses, please read the [config itself](/index.js).
 
