@@ -44,7 +44,7 @@
     ]
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "github:niksy/stylelint-config-recommended-scss#stylelint-v14",
+    "stylelint-config-recommended-scss": "github:stylelint-scss/stylelint-config-recommended-scss#prepare-5",
     "stylelint-config-standard": "github:stylelint/stylelint-config-standard#add-rules"
   },
   "devDependencies": {
@@ -52,10 +52,10 @@
     "@stylelint/remark-preset": "^3.0.0",
     "eslint": "^7.32.0",
     "eslint-config-stylelint": "^14.0.0",
-    "jest": "^27.1.0",
+    "jest": "^27.2.5",
     "np": "^7.5.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "remark-cli": "^10.0.0",
     "stylelint": "github:stylelint/stylelint#v14"
   },
