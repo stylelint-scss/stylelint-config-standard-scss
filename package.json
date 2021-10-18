@@ -8,10 +8,7 @@
     "standard",
     "scss"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stylelint-scss/stylelint-config-standard-scss.git"
-  },
+  "repository": "stylelint-scss/stylelint-config-standard-scss",
   "license": "MIT",
   "author": "Stylelint SCSS",
   "main": "index.js",
