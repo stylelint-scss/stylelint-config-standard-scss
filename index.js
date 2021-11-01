@@ -49,7 +49,7 @@ module.exports = {
 			},
 		],
 		'scss/dollar-variable-pattern': [
-			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			'^([-a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected variable to be kebab-case',
 			},
