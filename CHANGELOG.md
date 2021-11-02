@@ -1,3 +1,7 @@
+# 2.0.1
+
+- Fixed: allow private Sass variables when using kebab case.
+
 # 2.0.0
 
 This release adds over a dozen new rules.
