@@ -23,7 +23,7 @@ module.exports = {
 		'scss/at-else-if-parentheses-space-before': 'always',
 		'scss/at-function-parentheses-space-before': 'never',
 		'scss/at-function-pattern': [
-			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected function name to be kebab-case',
 			},
@@ -33,7 +33,7 @@ module.exports = {
 		'scss/at-mixin-argumentless-call-parentheses': 'never',
 		'scss/at-mixin-parentheses-space-before': 'never',
 		'scss/at-mixin-pattern': [
-			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected mixin name to be kebab-case',
 			},
@@ -49,7 +49,7 @@ module.exports = {
 			},
 		],
 		'scss/dollar-variable-pattern': [
-			'^([-a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected variable to be kebab-case',
 			},
@@ -63,7 +63,7 @@ module.exports = {
 		],
 		'scss/double-slash-comment-whitespace-inside': 'always',
 		'scss/percent-placeholder-pattern': [
-			'^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
+			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
 				message: 'Expected placeholder to be kebab-case',
 			},
