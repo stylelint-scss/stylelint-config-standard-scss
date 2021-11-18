@@ -61,6 +61,6 @@
     "stylelint": "^14.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.1.0"
+    "stylelint": "^14.0.0"
   }
 }
