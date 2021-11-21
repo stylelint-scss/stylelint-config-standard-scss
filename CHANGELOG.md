@@ -1,3 +1,8 @@
+# 3.0.0
+
+- Changed: updated to [`stylelint-config-standard@24.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/24.0.0).
+- Fixed: allow private Sass mixins, placeholders and functions when using kebab case.
+
 # 2.0.1
 
 - Fixed: allow private Sass variables when using kebab case.
