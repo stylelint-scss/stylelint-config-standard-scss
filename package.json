@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-standard-scss",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The standard shareable SCSS config for Stylelint",
   "keywords": [
     "stylelint",
@@ -41,8 +41,8 @@
     ]
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^5.0.2",
-    "stylelint-config-standard": "^24.0.0"
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-standard": "^25.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
@@ -61,6 +61,6 @@
     "stylelint": "^14.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.0.0"
+    "stylelint": "^14.4.0"
   }
 }
