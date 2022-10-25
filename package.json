@@ -41,8 +41,8 @@
     ]
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^7.0.0",
-    "stylelint-config-standard": "^26.0.0"
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-standard": "^29.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
@@ -61,6 +61,6 @@
     "stylelint": "^14.9.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.9.0"
+    "stylelint": "^14.14.0"
   }
 }
