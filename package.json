@@ -61,8 +61,8 @@
     "stylelint": "^14.9.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.14.0",
-    "postcss": "^8.3.3"
+    "postcss": "^8.3.3",
+    "stylelint": "^14.14.0"
   },
   "peerDependenciesMeta": {
     "postcss": {
