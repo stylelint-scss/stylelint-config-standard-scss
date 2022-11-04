@@ -1,3 +1,7 @@
+# 6.1.0
+
+- Added: `postcss` as an optional peer dependency.
+
 # 6.0.0
 
 - Changed: updated to [`stylelint-config-recommended-scss@8.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v8.0.0).
