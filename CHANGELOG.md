@@ -1,3 +1,9 @@
+# 7.0.0
+
+- Changed: updated to [`stylelint-config-recommended-scss@9.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v9.0.0).
+- Changed: updated to [`stylelint-config-standard@30.0.1`](https://github.com/stylelint/stylelint-config-standard/releases/tag/30.0.1)
+- Removed: `stylelint` less than `15.0.0` from peer dependencies.
+
 # 6.1.0
 
 - Added: `postcss` as an optional peer dependency.
