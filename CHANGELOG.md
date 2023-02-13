@@ -1,3 +1,7 @@
+# 7.0.1
+
+- Fixed: remove deprecated rule `block-closing-brace-newline-after` (#68).
+
 # 7.0.0
 
 - Changed: updated to [`stylelint-config-recommended-scss@9.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v9.0.0).
