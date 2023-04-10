@@ -1,3 +1,8 @@
+# 8.0.0
+- Changed: updated to [`stylelint-config-recommended-scss@10.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v10.0.0).
+- Changed: updated to [`stylelint-config-standard@32.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/32.0.0)
+- Removed: `stylelint` less than `15.4.0` from peer dependencies.
+
 # 7.0.1
 
 - Fixed: remove deprecated rule `block-closing-brace-newline-after` (#68).
