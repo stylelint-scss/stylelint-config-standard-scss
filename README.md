@@ -1,9 +1,9 @@
 # stylelint-config-standard-scss
 
-[![npm version](http://img.shields.io/npm/v/stylelint-config-standard-scss.svg)](https://www.npmjs.org/package/stylelint-config-standard-scss)
-[![Build Status](https://github.com/stylelint-scss/stylelint-config-standard-scss/workflows/Tests/badge.svg)](https://github.com/stylelint-scss/stylelint-config-standard-scss/actions?workflow=CI)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
-[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-standard-scss.svg)](https://npmcharts.com/compare/stylelint-config-standard-scss)
+[![npm version](https://img.shields.io/npm/v/stylelint-config-standard-scss?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint-config-standard-scss)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/stylelint-scss/stylelint-config-standard-scss/test.yml?branch=main&label=tests&logo=github)](https://github.com/stylelint-scss/stylelint-config-standard-scss/actions/workflows/test.yml?query=workflow%3ATests)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-standard-scss)](https://npmcharts.com/compare/stylelint-config-standard-scss)
 
 > The standard shareable SCSS config for Stylelint.
 
