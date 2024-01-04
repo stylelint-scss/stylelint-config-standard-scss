@@ -1,3 +1,8 @@
+# 13.0.0
+
+- Changed: updated to [`stylelint-config-standard@36.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/36.0.0)
+- Removed: `stylelint` less than `16.1.0` from peer dependencies.
+
 # 12.0.0
 
 - Changed: updated to [`stylelint-config-recommended-scss@14.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v14.0.0).
