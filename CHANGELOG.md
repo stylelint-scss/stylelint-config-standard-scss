@@ -1,3 +1,7 @@
+# 13.1.0
+
+- Changed: `scss/dollar-variable-colon-space-after` from `always` to `always-single-line` to be compatible with the default formatting of Prettier.
+
 # 13.0.0
 
 - Changed: updated to [`stylelint-config-standard@36.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/36.0.0)
