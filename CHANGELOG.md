@@ -1,3 +1,8 @@
+# 14.0.0
+
+- Changed: updated to [`stylelint-config-recommended-scss@14.1.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v14.1.0).
+- Removed: `stylelint` less than `16.11.0` from peer dependencies.
+
 # 13.1.0
 
 - Changed: `scss/dollar-variable-colon-space-after` from `always` to `always-single-line` to be compatible with the default formatting of Prettier.
