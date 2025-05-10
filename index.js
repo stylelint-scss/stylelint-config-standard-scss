@@ -12,6 +12,13 @@ module.exports = {
 			},
 		],
 		'import-notation': 'string',
+		'length-zero-no-unit': [
+			true,
+			{
+				ignore: ['custom-properties'],
+				ignorePreludeOfAtRules: ['function', 'mixin'],
+			},
+		],
 		'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
 		'scss/at-else-closing-brace-space-after': 'always-intermediate',
 		'scss/at-else-empty-line-before': 'never',
