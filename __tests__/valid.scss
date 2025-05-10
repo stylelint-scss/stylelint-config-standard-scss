@@ -115,7 +115,7 @@ $theme-colors: (
     // Flush to parent comment
     @include corner-icon("mail", top, left);
 
-    transform: translate(1, 1) scale(3);
+    transform: translate(100%, 100%) scale(3);
   }
 }
 
