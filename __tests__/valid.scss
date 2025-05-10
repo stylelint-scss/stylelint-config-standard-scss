@@ -170,3 +170,19 @@ $ratios:
     4 3,
     3 2,
     16 9;
+
+@mixin hardcode-total-height($base-height, $extra-height: 0px) {
+  height: calc($base-height + $extra-height);
+}
+
+a {
+  @include hardcode-total-height(10px);
+}
+
+@function add-numbers($number-a, $number-b: 0px) {
+  @return calc($number-a + $number-b)
+}
+
+div {
+  width: add-numbers(10px);
+}
