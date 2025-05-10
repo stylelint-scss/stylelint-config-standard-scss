@@ -193,3 +193,11 @@ div {
     content: '';
   }
 }
+
+// issue #184
+.arrow-button {
+  // stylelint-disable-next-line no-duplicate-selectors
+  & {
+    @include utils.focus-visible;
+  }
+}
