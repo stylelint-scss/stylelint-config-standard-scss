@@ -186,3 +186,10 @@ a {
 div {
   width: add-numbers(10px);
 }
+
+// issue #214
+.name {
+  &-suffix {
+    content: '';
+  }
+}
