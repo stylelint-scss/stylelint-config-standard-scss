@@ -1,3 +1,11 @@
+# 15.0.0
+
+- Changed: updated to [`stylelint-config-recommended-scss@15.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v15.0.0).
+- Changed: updated to [`stylelint-config-standard@38.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/38.0.0)
+- Removed: `stylelint` less than `16.18.0` from peer dependencies.
+- Removed: Node.js less than `22` support.
+- Fixed: `length-zero-no-unit` allow mixin/function argument default values with unit (#221).
+
 # 14.0.0
 
 - Changed: updated to [`stylelint-config-recommended-scss@14.1.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v14.1.0).
