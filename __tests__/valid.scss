@@ -119,7 +119,7 @@ $theme-colors: (
   }
 }
 
-@media (orientation: portrait), projection and (color) {
+@media (orientation: portrait), screen and (color) {
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
@@ -196,7 +196,7 @@ div {
 
 // issue #184
 .arrow-button {
-  // stylelint-disable-next-line no-duplicate-selectors
+  // stylelint-disable-next-line no-duplicate-selectors, block-no-redundant-nested-style-rules
   & {
     @include utils.focus-visible;
   }
