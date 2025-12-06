@@ -27,7 +27,7 @@ module.exports = {
 		'scss/at-function-pattern': [
 			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
-				message: 'Expected function name to be kebab-case',
+				message: (name) => `Expected function name "${name}" to be kebab-case`,
 			},
 		],
 		'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
@@ -37,7 +37,7 @@ module.exports = {
 		'scss/at-mixin-pattern': [
 			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
-				message: 'Expected mixin name to be kebab-case',
+				message: (name) => `Expected mixin name "${name}" to be kebab-case`,
 			},
 		],
 		'scss/at-rule-conditional-no-parentheses': true,
@@ -53,7 +53,7 @@ module.exports = {
 		'scss/dollar-variable-pattern': [
 			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
-				message: 'Expected variable to be kebab-case',
+				message: (name) => `Expected variable name "${name}" to be kebab-case`,
 			},
 		],
 		'scss/double-slash-comment-empty-line-before': [
@@ -67,7 +67,7 @@ module.exports = {
 		'scss/percent-placeholder-pattern': [
 			'^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 			{
-				message: 'Expected placeholder to be kebab-case',
+				message: (name) => `Expected placeholder name "${name}" to be kebab-case`,
 			},
 		],
 	},
