@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+export default {
 	extends: ['stylelint-config-standard', 'stylelint-config-recommended-scss'],
 	rules: {
 		'at-rule-empty-line-before': [

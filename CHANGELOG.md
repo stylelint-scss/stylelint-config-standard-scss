@@ -1,3 +1,10 @@
+# 17.0.0
+
+- Removed: `stylelint` less than `17.0.0` from peer dependencies.
+- Changed: updated to [`stylelint-config-recommended-scss@17.0.0`](https://github.com/stylelint/stylelint-config-recommended-scss/releases/tag/17.0.0).
+- Changed: updated to [`stylelint-config-standard@40.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/40.0.0)
+- Changed: module type to ESM.
+
 # 16.0.0
 
 - Changed: updated to [`stylelint-config-recommended-scss@16.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v16.0.0) and [`stylelint-config-recommended-scss@16.0.1`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v16.0.1).
