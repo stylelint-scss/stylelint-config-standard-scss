@@ -11,7 +11,12 @@
   "repository": "stylelint-scss/stylelint-config-standard-scss",
   "license": "MIT",
   "author": "Stylelint SCSS",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
   "files": [
     "index.js"
   ],
@@ -26,9 +31,8 @@
     "watch": "node --test --watch"
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^16.0.1",
-    "stylelint-config-standard": "^39.0.0",
-    "stylelint-scss": "^6.13.0"
+    "stylelint-config-recommended-scss": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
@@ -39,11 +43,11 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "remark-cli": "^12.0.1",
-    "stylelint": "^16.25.0"
+    "stylelint": "^17.0.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
-    "stylelint": "^16.23.1"
+    "stylelint": "^17.0.0"
   },
   "peerDependenciesMeta": {
     "postcss": {
