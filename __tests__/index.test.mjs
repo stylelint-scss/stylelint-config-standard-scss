@@ -42,27 +42,99 @@ describe('flags warnings with invalid scss', () => {
 		assert.equal(result.errored, true);
 	});
 
-	it('flags one warning', () => {
-		assert.equal(result.results[0].warnings.length, 1);
+	it('flags four warnings', () => {
+		assert.equal(result.results[0].warnings.length, 4);
 	});
 
-	it('correct warning text', () => {
-		assert.equal(result.results[0].warnings[0].text, 'Expected variable to be kebab-case');
+	it('correct warning text (function name)', () => {
+		assert.equal(
+			result.results[0].warnings[0].text,
+			'Expected function name "FOO" to be kebab-case (scss/at-function-pattern)',
+		);
 	});
 
-	it('correct rule flagged', () => {
-		assert.equal(result.results[0].warnings[0].rule, 'scss/dollar-variable-pattern');
+	it('correct rule flagged (function name)', () => {
+		assert.equal(result.results[0].warnings[0].rule, 'scss/at-function-pattern');
 	});
 
-	it('correct severity flagged', () => {
+	it('correct severity flagged (function name)', () => {
 		assert.equal(result.results[0].warnings[0].severity, 'error');
 	});
 
-	it('correct line number', () => {
-		assert.equal(result.results[0].warnings[0].line, 1);
+	it('correct line number (function name)', () => {
+		assert.equal(result.results[0].warnings[0].line, 7);
 	});
 
-	it('correct column number', () => {
-		assert.equal(result.results[0].warnings[0].column, 1);
+	it('correct column number (function name)', () => {
+		assert.equal(result.results[0].warnings[0].column, 11);
+	});
+
+	it('correct warning text (mixin name)', () => {
+		assert.equal(
+			result.results[0].warnings[1].text,
+			'Expected mixin name "FOO" to be kebab-case (scss/at-mixin-pattern)',
+		);
+	});
+
+	it('correct rule flagged (mixin name)', () => {
+		assert.equal(result.results[0].warnings[1].rule, 'scss/at-mixin-pattern');
+	});
+
+	it('correct severity flagged (mixin name)', () => {
+		assert.equal(result.results[0].warnings[1].severity, 'error');
+	});
+
+	it('correct line number (mixin name)', () => {
+		assert.equal(result.results[0].warnings[1].line, 11);
+	});
+
+	it('correct column number (mixin name)', () => {
+		assert.equal(result.results[0].warnings[1].column, 8);
+	});
+
+	it('correct warning text (variable name)', () => {
+		assert.equal(
+			result.results[0].warnings[2].text,
+			'Expected variable name "FOO" to be kebab-case (scss/dollar-variable-pattern)',
+		);
+	});
+
+	it('correct rule flagged (variable name)', () => {
+		assert.equal(result.results[0].warnings[2].rule, 'scss/dollar-variable-pattern');
+	});
+
+	it('correct severity flagged (variable name)', () => {
+		assert.equal(result.results[0].warnings[2].severity, 'error');
+	});
+
+	it('correct line number (variable name)', () => {
+		assert.equal(result.results[0].warnings[2].line, 1);
+	});
+
+	it('correct column number (variable name)', () => {
+		assert.equal(result.results[0].warnings[2].column, 1);
+	});
+
+	it('correct warning text (placeholder name)', () => {
+		assert.equal(
+			result.results[0].warnings[3].text,
+			'Expected placeholder name "FOO" to be kebab-case (scss/percent-placeholder-pattern)',
+		);
+	});
+
+	it('correct rule flagged (placeholder name)', () => {
+		assert.equal(result.results[0].warnings[3].rule, 'scss/percent-placeholder-pattern');
+	});
+
+	it('correct severity flagged (placeholder name)', () => {
+		assert.equal(result.results[0].warnings[3].severity, 'error');
+	});
+
+	it('correct line number (placeholder name)', () => {
+		assert.equal(result.results[0].warnings[3].line, 3);
+	});
+
+	it('correct column number (placeholder name)', () => {
+		assert.equal(result.results[0].warnings[3].column, 1);
 	});
 });
