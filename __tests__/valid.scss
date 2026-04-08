@@ -201,3 +201,16 @@ div {
     @include utils.focus-visible;
   }
 }
+
+// issue #252
+@mixin body {
+  background-color: white;
+
+  @supports(-webkit-touch-callout: none) {
+    min-block-size: -webkit-fill-available;
+  }
+}
+
+body {
+  @include body;
+}
