@@ -1,3 +1,7 @@
+@forward "something";
+@use "base";
+@import "something-else";
+
 $FOO: 1;
 
 %FOO {
