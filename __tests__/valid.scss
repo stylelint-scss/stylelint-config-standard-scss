@@ -1,10 +1,12 @@
 @forward "something";
+
 @use "base";
 @use "sass:list";
 @use "sass:map";
 @use "sass:math";
 @use "sass:meta";
 @use "sass:string";
+
 @import "something-else";
 
 // Multi-line double-slash comment
@@ -105,6 +107,7 @@ $theme-colors: (
 
 .selector-b {
   @extend %message-shared;
+
   @include theme($theme: DarkRed);
 }
 
