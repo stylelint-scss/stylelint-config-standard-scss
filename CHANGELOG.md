@@ -1,3 +1,10 @@
+# 18.0.0
+
+- Removed: `stylelint` less than `18.0.0` from peer dependencies.
+- Removed: support for end-of-life and older versions of Node.js.
+- Changed: updated to [`stylelint-config-recommended-scss@18.0.0`](https://github.com/stylelint-scss/stylelint-config-recommended-scss/releases/tag/v18.0.0).
+- Changed: updated to [`stylelint-config-standard@41.0.0`](https://github.com/stylelint/stylelint-config-standard/releases/tag/41.0.0).
+
 # 17.0.0
 
 - Removed: `stylelint` less than `17.0.0` from peer dependencies.
