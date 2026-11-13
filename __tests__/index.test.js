@@ -43,7 +43,7 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('flags four warnings', () => {
-		assert.equal(result.results[0].warnings.length, 4);
+		assert.equal(result.results[0].warnings.length, 6);
 	});
 
 	it('correct warning text (function name)', () => {
@@ -62,7 +62,7 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('correct line number (function name)', () => {
-		assert.equal(result.results[0].warnings[0].line, 7);
+		assert.equal(result.results[0].warnings[0].line, 11);
 	});
 
 	it('correct column number (function name)', () => {
@@ -85,7 +85,7 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('correct line number (mixin name)', () => {
-		assert.equal(result.results[0].warnings[1].line, 11);
+		assert.equal(result.results[0].warnings[1].line, 15);
 	});
 
 	it('correct column number (mixin name)', () => {
@@ -108,7 +108,7 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('correct line number (variable name)', () => {
-		assert.equal(result.results[0].warnings[2].line, 1);
+		assert.equal(result.results[0].warnings[2].line, 5);
 	});
 
 	it('correct column number (variable name)', () => {
@@ -131,7 +131,7 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('correct line number (placeholder name)', () => {
-		assert.equal(result.results[0].warnings[3].line, 3);
+		assert.equal(result.results[0].warnings[3].line, 7);
 	});
 
 	it('correct column number (placeholder name)', () => {
